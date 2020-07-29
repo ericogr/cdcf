@@ -1,0 +1,11 @@
+---
+version: 2
+jobs:
+  build:
+    docker:
+    - image: circleci/golang:1.14
+    working_directory: /go/src/github.com/ericogr/cdcf
+    steps:
+    - checkout
+    - run: go get -u github.com/spf13/cobra/cobra
+    - run: go build
