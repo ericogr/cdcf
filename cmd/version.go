@@ -11,7 +11,7 @@ var versionCmd = &cobra.Command{
 	Short: "Version information",
 	Long:  "Get version information.",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("Create docker config file v0.0.1")
+		fmt.Println("Create docker config file v0.0.1 (by EricoGR) - https://github.com/ericogr/cdcf")
 	},
 }
 

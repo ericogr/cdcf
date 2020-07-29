@@ -30,7 +30,7 @@ var rootCmd = &cobra.Command{
 	Use:   "cdcf",
 	Short: "Takes your user and password to creates a docker config file",
 	Long: `This tool can take your username and password to create a docker config file`,
-	Example: "cdcf create 'robot$pull' 'password' 'https://docker.totvs.io/v1/",
+	Example: "cdcf create 'robot$pull' 'password' 'https://docker.totvs.io/v1/'",
 }
 
 func Execute() {
